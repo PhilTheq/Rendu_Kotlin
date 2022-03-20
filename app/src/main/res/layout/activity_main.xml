@@ -24,7 +24,7 @@
         android:id="@+id/textView3"
         android:layout_width="286dp"
         android:layout_height="159dp"
-        android:text="0"
+        android:text="Want a joke ? you just have to click on the button below me :)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

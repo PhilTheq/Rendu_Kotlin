@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:7:5-26:19
+14        android:allowBackup="true"
+14-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Phil\.gradle\caches\transforms-3\45d02a77dae881956d1271c2f6287d3a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MyApplication" >
+22-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:14:9-51
+23        <activity
+23-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:15:9-24:20
+24            android:name="com.example.myapplication.MainActivity"
+24-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:16:13-41
+25            android:exported="true" >
+25-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:17:13-36
+26            <intent-filter>
+26-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:18:13-22:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\Phil\OneDrive\Bureau\E4\KOTLIN\Oui\app\src\main\AndroidManifest.xml:21:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+35            android:authorities="com.example.myapplication.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Phil\.gradle\caches\transforms-3\ec75a5ef9cd8cff1061d37370f71c616\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Phil\.gradle\caches\transforms-3\f1959bf96fa7646ec067229fc59b8cae\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Phil\.gradle\caches\transforms-3\f1959bf96fa7646ec067229fc59b8cae\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Phil\.gradle\caches\transforms-3\f1959bf96fa7646ec067229fc59b8cae\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+43        </provider>
+44    </application>
+45
+46</manifest>
