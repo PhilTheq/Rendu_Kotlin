@@ -1,18 +1,38 @@
 package com.example.myapplication
 
+import kotlin.random.Random
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.RecyclerView
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val d = Log.d("Jokes", Jokes.toString())
+        val d = Log.d("ListOfJokes", ListOfJokes.toString())
 
-        object Jokes {
-            val Joke_list = listOf(
+        val btn = findViewById(R.id.button) as Button
+        val textView = findViewById(R.id.textView3) as TextView
+        val recyclerview = findViewById<RecyclerView>(R.id.activity_main_recycler_view)
+
+        recyclerview.adapter = JokeAdapter()
+
+
+        btn.setOnClickListener {
+            var randomIndex = Random.nextInt(Joke_list.size);
+            var randomElement = Joke_list[randomIndex]
+
+            randomElement = randomElement;
+            activity_main_recycler_view.text = randomElement.toString();
+            Toast.makeText(this@MainActivity, "Another Joke ? :D", Toast.LENGTH_SHORT).show()
+        }
+    }
+        object ListOfJokes {
+            val Joke_list = listOf<String>(
                 "Those aren't credits that roll after Walker Texas Ranger. It is actually a list of fatalities that occurred during the making of the episode.",
                 "The devil has a Chuck Norris-may-care attitude.",
                 "Chuck Norris roundhouse kicked the winnyness out of Caillou.",
@@ -27,5 +47,10 @@ class MainActivity : AppCompatActivity() {
                 "Chuck Norris smelly breath is so strong that he can demolish a house just by breathing on it."
             )
         }
-    }
+
+
+
+
+
+
 }
