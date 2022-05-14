@@ -8,9 +8,10 @@ color teal_200
 color teal_700
 color white
 drawable aled
+drawable chap
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id button
+id activity_main_recycler_view
 id textView3
 layout activity_main
 mipmap ic_launcher

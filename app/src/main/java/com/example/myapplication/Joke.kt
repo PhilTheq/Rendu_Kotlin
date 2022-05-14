@@ -1,8 +1,16 @@
 package com.example.myapplication
 
-import kotlinx.serialization.SerialName
+//import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 
 @Serializable
-class Joke(val categories: String, @SerialName("create") val createdAt: String, @SerialName("url") val iconUrl: String, val id: String, @SerialName("update") val updatedAt: String, val url: String, val value: String)
+data class Joke(
+    val categories: List<String> = emptyList(),
+    val createdAt: String =" " ,
+    val iconUrl: String =" ",
+    val id: String=" ",
+    val updatedAt: String=" ",
+    val url: String=" ",
+    val value: String){
+}
