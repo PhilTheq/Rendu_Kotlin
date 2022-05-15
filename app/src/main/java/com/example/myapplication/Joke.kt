@@ -1,24 +1,11 @@
 package com.example.myapplication
 
-//import kotlinx.serialization.SerialName
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Serializable
-
 /*
-@Serializable
-data class Joke(
-    val categories: List<String>,
-    @SerialName("created_at")
-    val createdAt: String,
-    @SerialName("icon_url")
-    val iconUrl: String,
-    val id: String,
-    @SerialName("updated_at")
-    val updatedAt: String,
-    val url: String,
-    val value: String
-)
-*/
+Ici nous allons renseigner les informations que nous retrouvons dans notre API, c'est pour cela que ce fichier est une data class. La variable categories est une emptyList() car dans
+l'API c'est un tableau vide. @Serializable est un processus qui permet de convertir, dans un format qui peut être transféré, des données
+utilisées par une application sur un réseau ou le stocker dans un fichier ou une bdd.
+ */
+
 data class Joke(
     val body: String? = null
 )

@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 
+/* Redefinition de la fonction onCreateViewHolder pour qu'elle affiche maintenant notre list<Joke>*/
+
 
 class JokeAdapter(val list_jokes: MutableList<Joke>) : RecyclerView.Adapter<JokeViewHolder>() {
 
