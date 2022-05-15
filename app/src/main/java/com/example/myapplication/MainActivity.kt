@@ -24,9 +24,19 @@ class MainActivity : AppCompatActivity() {
         val adapter = JokeAdapter(JokesList.list.toJokeList())
         recyclerview.adapter = adapter
 
+        /*
         val jokeService : JokeApiService = JokeApiServiceFactory.createService()
 
 
+        val joke : Single<Joke> = jokeService.giveMeAJoke()
+        val compositeDisposable = CompositeDisposable()
+        compositeDisposable.add(joke.subscribeOn(Schedulers.io())
+            .subscribeBy(
+                onError = {println("Error")},
+                onSuccess = { joke -> println("Success :${joke.value}")}
+            )
+        )
+        */
 
 
 

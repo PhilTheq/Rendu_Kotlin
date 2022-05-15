@@ -2,7 +2,6 @@ package com.example.myapplication
 
 
 object JokesList{
-
     val list = listOf("Those aren't credits that roll after Walker Texas Ranger. It is actually a list of fatalities that occurred during the making of the episode.",
         "The devil has a Chuck Norris-may-care attitude.", "Chuck Norris roundhouse kicked the winnyness out of Caillou.", "The Most Interesting Man in the World's hair is not actually grey. It's actually covered with Chuck Norris' sperm.",
         "Freddy thought he was the true nightmare until he met Chuck Norris who roundhouse kicked and from that day Freddy hides in fear thinking a nightmare in texas", "Chuck Norris can drink a bucket of KFC.",
