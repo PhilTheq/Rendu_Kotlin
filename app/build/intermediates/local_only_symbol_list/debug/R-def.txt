@@ -11,9 +11,12 @@ drawable aled
 drawable chap
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id activity_main_recycler_view
-id textView3
+drawable r1
+drawable r2
+id myRecyclerView
+id tvValue
 layout activity_main
+layout joke_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

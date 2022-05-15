@@ -2503,6 +2503,8 @@ int drawable notification_template_icon_bg 0x7f070097
 int drawable notification_template_icon_low_bg 0x7f070098
 int drawable notification_tile_bg 0x7f070099
 int drawable notify_panel_notification_icon_bg 0x7f07009a
+int drawable r1 0x7f07009f
+int drawable r2 0x7f0700a0
 int drawable test_custom_background 0x7f07009b
 int drawable test_level_drawable 0x7f07009c
 int drawable tooltip_frame_dark 0x7f07009d
@@ -2577,7 +2579,6 @@ int id action_mode_close_button 0x7f080042
 int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
-int id activity_main_recycler_view 0x7f080046
 int id add 0x7f080047
 int id alertTitle 0x7f080048
 int id aligned 0x7f080049
@@ -2801,6 +2802,7 @@ int id mtrl_picker_text_input_range_start 0x7f080122
 int id mtrl_picker_title_text 0x7f080123
 int id mtrl_view_tag_bottom_padding 0x7f080124
 int id multiply 0x7f080125
+int id myRecyclerView 0x7f0801e3
 int id navigation_bar_item_active_indicator_view 0x7f080126
 int id navigation_bar_item_icon_container 0x7f080127
 int id navigation_bar_item_icon_view 0x7f080128
@@ -2937,7 +2939,6 @@ int id textSpacerNoButtons 0x7f0801aa
 int id textSpacerNoTitle 0x7f0801ab
 int id textStart 0x7f0801ac
 int id textTop 0x7f0801ad
-int id textView3 0x7f0801ae
 int id text_input_end_icon 0x7f0801af
 int id text_input_error_icon 0x7f0801b0
 int id text_input_start_icon 0x7f0801b1
@@ -2963,6 +2964,7 @@ int id transition_position 0x7f0801c4
 int id transition_scene_layoutid_cache 0x7f0801c5
 int id transition_transform 0x7f0801c6
 int id triangle 0x7f0801c7
+int id tvValue 0x7f0801e4
 int id unchecked 0x7f0801c8
 int id uniform 0x7f0801c9
 int id unlabeled 0x7f0801ca
@@ -3087,6 +3089,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout joke_layout 0x7f0b0074
 int layout m3_alert_dialog 0x7f0b002d
 int layout m3_alert_dialog_actions 0x7f0b002e
 int layout m3_alert_dialog_title 0x7f0b002f
