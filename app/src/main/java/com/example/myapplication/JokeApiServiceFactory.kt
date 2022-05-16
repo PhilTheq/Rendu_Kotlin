@@ -10,7 +10,7 @@ Dans ce fichier nous allons créer notre Builder qui va se connecter à l'API
 
 
 
-object ServiceGenerator{
+object JokeApiServiceFactory{
 
     private val client = OkHttpClient.Builder().build()
 

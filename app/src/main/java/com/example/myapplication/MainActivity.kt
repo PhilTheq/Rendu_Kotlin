@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         //Call our recyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.myRecyclerView)
 
-        val serviceGenerator = ServiceGenerator.buildService(JokeApiService::class.java)
-        val call = serviceGenerator.getPost()
+        val jokeapiservice = JokeApiServiceFactory.buildService(JokeApiService::class.java)
+        val call = jokeapiservice.getPost()
 
         //Call our enqueue
         call.enqueue(object : retrofit2.Callback<MutableList<Joke>> {
@@ -33,6 +33,14 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+            /*
+            private val jokeService : JokeApiService = JokeApiServiceFactory.createService()
+            val compositeDisposable = CompositeDisposable()
+            fun getJoke(){
+                jokeService.giveMeAJoke().subscribeOn(Schedulers.io()).subscribeBy(
+                    onError = {println("Error")},
+                    onSuccess = {println("it.value")})
+            }*/
 
             override fun onFailure(call: Call<MutableList<Joke>>, t: Throwable) {
                 t.printStackTrace()
